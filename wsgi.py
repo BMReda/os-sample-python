@@ -2,9 +2,9 @@ from flask import Flask
 application = Flask(__name__)
 
 
-@application.route("/test")
+@application.route("/")
 def hello():
-    return "OpenShift Hello World!"
+    return "OpenShift Hello Le monde!"
 
 
 @application.route("/applications")
